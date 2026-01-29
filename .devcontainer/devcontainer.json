@@ -30,7 +30,9 @@
             ],
             // Use Python from conda
             "settings": {
-                "python.defaultInterpreterPath": "/opt/conda/bin/python"
+                "python.defaultInterpreterPath": "/opt/conda/bin/python",
+                "workbench.startupEditor": "none",
+                "workbench.welcomePage.walkthroughs.openOnInstall": false
             },
             // Use bash
             "terminal.integrated.defaultProfile.linux": "bash"
