@@ -8,4 +8,7 @@ export PS1='\[\e[3;36m\]${PWD#/workspaces/} ->\[\e[0m\] '
 nextflow self-update
 nextflow -version
 
+# Install Python packages for omics practice
+pip install -r /workspaces/pnu/requirements.txt
+
 cat /usr/local/etc/vscode-dev-containers/first-run-notice.txt
