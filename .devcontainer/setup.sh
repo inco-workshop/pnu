@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Install additional tools
+apt-get update && apt-get install -y vim tree
+
 # Customise the terminal command prompt
 printf "export PS1='\\[\\e[3;36m\\]\${PWD#/workspaces/} ->\\[\\e[0m\\] '\n" >> $HOME/.bashrc
 export PS1='\[\e[3;36m\]${PWD#/workspaces/} ->\[\e[0m\] '
